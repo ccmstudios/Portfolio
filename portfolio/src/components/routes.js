@@ -1,31 +1,33 @@
 import React from 'react'
-import {BrowserRouter as Router,Switch, Route} from 'react-router-dom'
-import About from '../pages/about';
-import Contact from '../pages/contact';
-import Landing from '../pages/landing';
-import Projects from '../pages/projects';
-import Resume from '../pages/resume';
+import { Link} from 'react-router-dom'
+import { Header, Navigation, Drawer } from 'react-mdl'
 
 
-class  Routes extends React.Component{
-    render(){
-        return(
 
-    <Router>
+const Routes =()=>
+        (
+
 <div>
-<Switch>
-<Route exact path ='/' component ={Landing}/>
-<Route exact path ='/resume' component ={Resume}/>
-<Route exact path ='/projects' component = {Projects}/>
-<Route exact path ='/about' component = {About}/>
-<Route exact path = '/contact' component = {Contact}/>
-</Switch>
+<Header title="Title" scroll>
+            <Navigation>
+                <Link to="/">Home</Link>
+                <Link to="/about">About</Link>
+                <Link to="/resume">Resume</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact</Link>
+            </Navigation>
+        </Header>
+            <Drawer title="Title">
+            <Navigation>
+            <Link to="/about">About</Link>
+                <Link to="/resume">Resume</Link>
+                <Link to="/projects">Projects</Link>
+                <Link to="/contact">Contact</Link>
+            </Navigation>
+        </Drawer>
 
 </div>
-</Router>
         )
-    }
-}
 
 
 

@@ -1,37 +1,35 @@
 import './App.css';
-import {Layout, Header, Navigation, Drawer, Content } from 'react-mdl'
-import Routes from './components/routes';
-import { Link } from 'react-router-dom'
+import {Layout, Content } from 'react-mdl'
 
+import {BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import About from './pages/about';
+import Contact from './pages/contact';
+import Landing from './pages/landing';
+import Projects from './pages/projects';
+import Resume from './pages/resume';
+import Routes from './components/routes'
 
 function App() {
   return (
+    <Router>
+      <Routes/>
     <div className="demo-big-content">
+      <Switch>
+      <Route exact path ='/' component ={Landing}/>
+<Route exact path ='/resume' component ={Resume}/>
+<Route exact path ='/projects' component = {Projects}/>
+<Route exact path ='/about' component = {About}/>
+<Route exact path = '/contact' component = {Contact}/>
     <Layout>
-        <Header title="Title" scroll>
-            <Navigation>
-                <Link to="/about">About</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
-            </Navigation>
-        </Header>
-        <Drawer title="Title">
-            <Navigation>
-            <Link to="/about">About</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
-            </Navigation>
-        </Drawer>
         <Content>
            
             <div className="page-content" />
-            <Routes/>
+            
         </Content>
     </Layout>
+    </Switch>
 </div>
-
+</Router>
   );
 }
 
