@@ -8,23 +8,22 @@ const Routes =()=>
         (
 
 <div>
-<Header id='navbar' title="Nygel M. Porterfield" scroll>
+<nav id='navbar' title="Nygel M. Porterfield">
             <Navigation>
-                <Link to="/"><h3>Home</h3></Link>
-                <Link to="/about"><h3>About</h3></Link>
-                <Link to="/resume"><h3>Resume</h3></Link>
-                <Link to="/projects"><h3>Projects</h3></Link>
-                <Link to="/contact"><h3>Contact</h3></Link>
+                <ul>
+                    <li><Link to="/"><h3>Home</h3></Link></li>
+                    <li><Link to="/about"><h3>About</h3></Link></li>
+                    <li><Link to="/resume"><h3>Resume</h3></Link></li>
+                    <li><Link to="/projects"><h3>Projects</h3></Link></li>
+                    <li><Link to="/contact"><h3>Contact</h3></Link></li>
+                </ul>
+                
+                
+                
+                
+                
             </Navigation>
-        </Header>
-            <Drawer title="Title">
-            <Navigation>
-            <Link to="/about">About</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
-            </Navigation>
-        </Drawer>
+        </nav>
 
 </div>
         )

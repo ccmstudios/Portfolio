@@ -9,6 +9,23 @@
 justify-content: center;
 }
 
+ul{
+    display: flex;
+    list-style: none;
+    background-color: rgb(23,162,184);
+    width: 100%;
+    justify-content: space-around;
+}
+
+ul li{
+    color: white;
+
+}
+
+#navbar h3{
+    color: white;
+}
+
 #overflow-hidden{
     max-height: 30vh;
 }
@@ -21,8 +38,6 @@ justify-content: center;
     margin-right: auto;
 }
 
-#navbar{
-   background-color: rgb(23,162,184)}
 
 .body{
     background-color: black;
@@ -59,4 +74,15 @@ justify-content: center;
     align-items: center;
     /* margin-left: auto;
     margin-right: auto; */
+}
+
+@media only screen and (max-width:600px){
+    #navbar{
+        width: 100%;
+    }
+
+    li h3{
+        font-size: 20px;
+
+    }
 }

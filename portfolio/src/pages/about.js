@@ -16,7 +16,7 @@ class About extends React.Component{
       <h1 class="display-5 fw-bold lh-1 mb-3">Meet Nygel M. Porterfield</h1>
       <p class="lead">Nygel Porterfield is a husband and father of three children living on the outskirts of Charlotte NC. When he's not developing websites for various projects, he is writing. Nygel has self published over two dozen books and three comic books. He is also an avid gamer, lover of anime, and football fan. Go Niners! Nygel is someone who is constantly seeking his next challenge and loves to tackle projects of any size. His current project is developing a Fantasy football application that will allow users to track players from college all the way to the NFL.</p>
       <div class="d-grid gap-2 d-md-flex justify-content-md-start">
-        <button type="button" class="btn btn-info btn-lg px-4 me-md-2">Primary</button>
+        <button href='https://twitter.com/URxFAVxAUTHOR' target='_blank' type="button" class="btn btn-info btn-lg px-4 me-md-2">Twitter</button>
       </div>
     </div>
   </div>
