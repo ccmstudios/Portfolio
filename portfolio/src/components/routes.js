@@ -8,7 +8,6 @@ const Routes =()=>
 
 <div>
 <nav id='navbar' title="Nygel M. Porterfield">
-            <Navigation>
                 <ul>
                     <li><Link to="/"><h3>Home</h3></Link></li>
                     <li><Link to="/about"><h3>About</h3></Link></li>
@@ -21,7 +20,6 @@ const Routes =()=>
                 
                 
                 
-            </Navigation>
         </nav>
 
 </div>
