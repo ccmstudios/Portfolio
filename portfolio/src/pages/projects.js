@@ -1,11 +1,16 @@
+import Content from '../components/content'
 import React from 'react'
+import Slideshow from '../components/slideshow'
 
 class Projects extends React.Component{
     render(){
         return(
             <div>
-<h1>The Projects Goes here</h1>
-            </div>
+
+<Slideshow/>
+<Content/>
+</div>
+
         )
     }
 }

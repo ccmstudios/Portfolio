@@ -8,13 +8,13 @@ const Routes =()=>
         (
 
 <div>
-<Header title="Title" scroll>
+<Header id='navbar' title="Nygel M. Porterfield" scroll>
             <Navigation>
-                <Link to="/">Home</Link>
-                <Link to="/about">About</Link>
-                <Link to="/resume">Resume</Link>
-                <Link to="/projects">Projects</Link>
-                <Link to="/contact">Contact</Link>
+                <Link to="/"><h3>Home</h3></Link>
+                <Link to="/about"><h3>About</h3></Link>
+                <Link to="/resume"><h3>Resume</h3></Link>
+                <Link to="/projects"><h3>Projects</h3></Link>
+                <Link to="/contact"><h3>Contact</h3></Link>
             </Navigation>
         </Header>
             <Drawer title="Title">

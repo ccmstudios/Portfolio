@@ -1,7 +1,9 @@
 import './App.css';
 import {Layout, Content } from 'react-mdl'
+import './assets/css/portfolio.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-import {BrowserRouter as Router, Switch, Route, Link } from 'react-router-dom'
+import {BrowserRouter as Router, Switch, Route } from 'react-router-dom'
 import About from './pages/about';
 import Contact from './pages/contact';
 import Landing from './pages/landing';
@@ -20,13 +22,6 @@ function App() {
 <Route exact path ='/projects' component = {Projects}/>
 <Route exact path ='/about' component = {About}/>
 <Route exact path = '/contact' component = {Contact}/>
-    <Layout>
-        <Content>
-           
-            <div className="page-content" />
-            
-        </Content>
-    </Layout>
     </Switch>
 </div>
 </Router>
