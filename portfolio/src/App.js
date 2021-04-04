@@ -1,5 +1,4 @@
 import './App.css';
-import {Layout, Content } from 'react-mdl'
 import './assets/css/portfolio.css'
 import 'bootstrap/dist/css/bootstrap.min.css';
 

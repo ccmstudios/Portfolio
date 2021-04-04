@@ -22,10 +22,41 @@ justify-content: center;
 }
 
 #navbar{
-    background-color: rgb(23,220,244);
-}
+   background-color: rgb(23,162,184)}
 
 .body{
     background-color: black;
 
+}
+
+#resumediv{
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#projectsdivh1{
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+#aboutdivh1{
+    padding: 5%;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+#rzn8img{
+    border-radius: 30%;
+}
+
+#contacth1{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    /* margin-left: auto;
+    margin-right: auto; */
 }

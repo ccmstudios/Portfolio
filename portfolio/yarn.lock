@@ -1305,6 +1305,11 @@
   dependencies:
     "mkdirp" "^1.0.4"
 
+"@pdftron/webviewer@^7.3.0":
+  "integrity" "sha512-IbVGUKBUqks/S9gSdwxhzB5NRyfHF/HT6uDw2jwqqkGSrmCKxQs0ou+C0bqYiuitQi7iMbLAyPpjW4tNfAVqhA=="
+  "resolved" "https://registry.npmjs.org/@pdftron/webviewer/-/webviewer-7.3.0.tgz"
+  "version" "7.3.0"
+
 "@pmmmwh/react-refresh-webpack-plugin@0.4.3":
   "integrity" "sha512-br5Qwvh8D2OQqSXpd1g/xqXKnK0r+Jz6qVKBbWmpUcrbGOxUrf39V5oZ1876084CGn18uMdR5uvPqBv9UqtBjQ=="
   "resolved" "https://registry.npmjs.org/@pmmmwh/react-refresh-webpack-plugin/-/react-refresh-webpack-plugin-0.4.3.tgz"
@@ -3235,6 +3240,11 @@
     "@types/q" "^1.5.1"
     "chalk" "^2.4.1"
     "q" "^1.1.2"
+
+"coffee-script@latest":
+  "integrity" "sha512-fLeEhqwymYat/MpTPUjSKHVYYl0ec2mOyALEMLmzr5i1isuG+6jfI2j2d5oBO3VIzgUXgBVIcOT9uH1TFxBckw=="
+  "resolved" "https://registry.npmjs.org/coffee-script/-/coffee-script-1.12.7.tgz"
+  "version" "1.12.7"
 
 "collect-v8-coverage@^1.0.0":
   "integrity" "sha512-iBPtljfCNcTKNAto0KEtDfZ3qzjJvqE3aTGZsbhjSBlorqpXJlaWWtPO35D+ZImoC3KWejX64o+yPGxhWSTzfg=="
@@ -8097,6 +8107,13 @@
   dependencies:
     "pdfjs-dist" "^2.6.347"
     "prop-types" "^15.7.2"
+
+"pdf.js@^0.1.0":
+  "integrity" "sha1-0IRGQu/SsB/eNVsip8w0Mjgr1k4="
+  "resolved" "https://registry.npmjs.org/pdf.js/-/pdf.js-0.1.0.tgz"
+  "version" "0.1.0"
+  dependencies:
+    "coffee-script" "latest"
 
 "pdfjs-dist@^2.6.347":
   "integrity" "sha512-QC+h7hG2su9v/nU1wEI3SnpPIrqJODL7GTDFvR74ANKGq1AFJW16PH8VWnhpiTi9YcLSFV9xLeWSgq+ckHLdVQ=="

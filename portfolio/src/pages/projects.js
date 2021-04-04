@@ -6,6 +6,7 @@ class Projects extends React.Component{
     render(){
         return(
             <div>
+<div id='projectsdivh1'><h1>Projects</h1></div>
 
 <Slideshow/>
 <Content/>

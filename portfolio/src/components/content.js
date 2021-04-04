@@ -1,5 +1,10 @@
 import React from 'react'
-
+import Cutter from '../assets/images/cutter.png'
+import Signature from '../assets/images/signature.png'
+import RZN8 from '../assets/images/RZN8RAIN.GIF'
+import Authorpage from '../assets/images/authorpage.PNG'
+import RZN8page from '../assets/images/rzn8page.PNG'
+import Golempage from '../assets/images/golempage.PNG'
 class Content extends React.Component{
     render(){
         return(
@@ -7,36 +12,36 @@ class Content extends React.Component{
 
 <div className="row">
   <div className="col-lg-4">
-    <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+    <img src={Cutter} width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"/><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text>
 
-    <h2>Heading</h2>
-    <p>Some representative placeholder content for the three columns of text below the carousel. This is the first column.</p>
-    <p><a className="btn btn-info" href="#">View details &raquo;</a></p>
+    <h2>Golem Genesis</h2>
+    <p>The official website for Golem Genesis the series</p>
+    <p><a className="btn btn-info" href="golemgenesis.com" target='_blank'>Check it out! &raquo;</a></p>
   </div>
   <div className="col-lg-4">
-    <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+    <img id='rzn8img'src={RZN8} width="240" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"/><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text>
 
-    <h2>Heading</h2>
-    <p>Another exciting bit of representative placeholder content. This time, we've moved on to the second column.</p>
-    <p><a className="btn btn-info" href="#">View details &raquo;</a></p>
+    <h2>RZN8 Publishing</h2>
+    <p>The official website for RZN8 Print and Publishing</p>
+    <p><a className="btn btn-info" href="resonate-publishing.com" target='_blank'>Check it out! &raquo;</a></p>
   </div>
   <div className="col-lg-4">
-    <svg className="bd-placeholder-img rounded-circle" width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em">140x140</text></svg>
+    <img src={Signature} width="140" height="140" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 140x140" preserveAspectRatio="xMidYMid slice" focusable="false"/><title>Placeholder</title><rect width="100%" height="100%" fill="#777"/><text x="50%" y="50%" fill="#777" dy=".3em"></text>
 
-    <h2>Heading</h2>
-    <p>And lastly this, the third column of representative placeholder content.</p>
-    <p><a className="btn btn-info" href="#">View details &raquo;</a></p>
+    <h2>URFAVORITEAUTHOR</h2>
+    <p>The Official website for N.M. Porterfield the author.</p>
+    <p><a className="btn btn-info" href="nmporterfield.com" target='_blank'>Check it out! &raquo;</a></p>
   </div>
 </div>
 
 
 <div className="row featurette">
   <div className="col-md-7">
-    <h2 className="featurette-heading">First featurette heading. <span className="text-muted">It’ll blow your mind.</span></h2>
-    <p className="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+    <h2 className="featurette-heading">Golem Genesis<span className="text-muted"></span></h2>
+    <p className="lead">In the world of Terra, Humans and Golems live side by side. Golems are living monoliths, beings that come from an ancient race of warriors and protectors. Golems still battle today in the G-Arena where Golems and their Guardians battle each other for the title of Gladiator Supreme. Chris Carter, the son of a world renowned Golem specialist gone missing, finds a Golem buried in a cave on his way home from school. After helping him out of the cave and protecting him in his first fight, the Golem takes to him and Chris finds, not only a new friend but a new adventure to embark on full of lots of awesome battles and new Golems. Let's Rock!</p>
   </div>
   <div className="col-md-5">
-    <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+    <img src={Golempage} width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"/><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
 
   </div>
 </div>
@@ -44,11 +49,11 @@ class Content extends React.Component{
 
 <div className="row featurette">
   <div className="col-md-7 order-md-2">
-    <h2 className="featurette-heading">Oh yeah, it’s that good. <span className="text-muted">See for yourself.</span></h2>
-    <p className="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+    <h2 className="featurette-heading">RZN8 Publishing<span className="text-muted"></span></h2>
+    <p className="lead">Resonate Print and Publishing was created to give storytellers a home to grow and thrive in. Everyone has a story to tell and with RZN8 yours can change the world. We help gifted writers resonate with readers and broaden the horizons of possibility.</p>
   </div>
   <div className="col-md-5 order-md-1">
-    <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+    <img src={RZN8page} width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"/><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
 
   </div>
 </div>
@@ -56,20 +61,15 @@ class Content extends React.Component{
 
 <div className="row featurette">
   <div className="col-md-7">
-    <h2 className="featurette-heading">And lastly, this one. <span className="text-muted">Checkmate.</span></h2>
-    <p className="lead">And yes, this is the last block of representative placeholder content. Again, not really intended to be actually read, simply here to give you a better view of what this would look like with some actual content. Your content.</p>
+    <h2 className="featurette-heading">N.M. Porterfield<span className="text-muted"></span></h2>
+    <p className="lead">N.M. Porterfield is an author from NC, who writes across different genres and platforms. Through his writing he intends to change the lives of his readers</p>
   </div>
   <div className="col-md-5">
-    <svg className="bd-placeholder-img bd-placeholder-img-lg featurette-image img-fluid mx-auto" width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em">500x500</text></svg>
+    <img src={Authorpage} width="500" height="500" xmlns="http://www.w3.org/2000/svg" role="img" aria-label="Placeholder: 500x500" preserveAspectRatio="xMidYMid slice" focusable="false"/><title>Placeholder</title><rect width="100%" height="100%" fill="#eee"/><text x="50%" y="50%" fill="#aaa" dy=".3em"></text>
 
   </div>
 </div>
 
-
-<footer className="container">
-<p className="float-end"><a href="#">Back to top</a></p>
-<p>&copy; 2017–2021 Company, Inc. &middot; <a href="#">Privacy</a> &middot; <a href="#">Terms</a></p>
-</footer>
             </div>
         )
     }

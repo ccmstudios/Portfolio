@@ -1,34 +1,26 @@
 import React from 'react'
-import PDFViewer from 'pdf-viewer-reactjs'
-import { Document, Page } from 'react-pdf';
-import File from '../assets/pdf/resume.pdf'
+
+import Resume1 from '../assets/images/Resumeimg1.PNG'
+import Resume2 from '../assets/images/Resumeimg2.PNG'
 
 class Resume extends React.Component {
-    state = {
-      numPages: null,
-      pageNumber: 1,
+    render(){
+        return(
+
+<div id='resumediv'>
+    <header>
+    <h1>Resume</h1>
+<div>
+      <img src={Resume1}/>
+      <img src={Resume2}/>
+
+</div>
+    </header>
+    <br></br>
+      </div>
+        )
     }
-  
-    onDocumentLoadSuccess = ({ numPages }) => {
-      this.setState({ numPages });
-    }
-  
-    render() {
-      const { pageNumber, numPages } = this.state;
-  
-      return (
-        <div>
-          <Document
-            file="http://localhost:3000/src/assets/pdf/resume.pdf"
-            onLoadSuccess={this.onDocumentLoadSuccess}
-          >
-            <Page pageNumber={pageNumber} />
-          </Document>
-          <p>Page {pageNumber} of {numPages}</p>
-        </div>
-      );
-    }
-  }
+}
 
 export default Resume;
          
