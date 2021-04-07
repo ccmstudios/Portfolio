@@ -15,7 +15,7 @@ class Landing extends React.Component{
   </div>
   <div className="overflow-hidden" >
     <div className="container px-5">
-      <img src={LandingImage} alt='sitepics'className="img-fluid border rounded-3 shadow-lg mb-4" alt="Example image" width="700" height="500" loading="lazy"/>
+      <img src={LandingImage} className="img-fluid border rounded-3 shadow-lg mb-4" alt="Welcome to my portfolio" width="700" height="500" loading="lazy"/>
 </div>
             </div>
             </div>

@@ -11,8 +11,8 @@ class Resume extends React.Component {
     <header>
     <h1>Resume</h1>
 <div>
-      <img src={Resume1}/>
-      <img src={Resume2}/>
+      <img alt='page1'src={Resume1}/>
+      <img  alt='pg2'src={Resume2}/>
 
 </div>
     </header>
